@@ -11,3 +11,14 @@ Command-line script to authorize a client to call the Gmail API.
 ```
 
 Read the Node.js Quickstart for more information: https://developers.google.com/gmail/api/quickstart/nodejsREADME
+
+## ENV
+
+The following variables are needed to correctly run the script:
+
+```
+export SECRETS_DIR=$(pwd)/secrets
+export CLIENT_NAME=your-client-name
+```
+
+You can provision them using an `.envrc` file and loading then with [direnv](https://direnv.net/).
