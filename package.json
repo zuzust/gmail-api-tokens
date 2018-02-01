@@ -1,0 +1,19 @@
+{
+  "name": "gmail-api-tokens",
+  "version": "1.0.0",
+  "description": "Simple Node.js command-line application to authorize a client to call the Gmail API",
+  "keywords": [
+    "oauth2",
+    "gmail",
+    "api"
+  ],
+  "license": "MIT",
+  "main": "authorize.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^25.0.0"
+  }
+}
